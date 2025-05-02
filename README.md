@@ -33,11 +33,11 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ## ⚙️ Instrucciones de Uso
 
-1. **Subir los archivos** a tu Google Drive en la ruta:
+1. **Subir los archivos** a tu Google Drive en la ruta: `/content/drive/MyDrive/ada_proyectofinal_data/`.
 
 2. **Abrir** el archivo `ada_proyectofinal.ipynb` o `ada_proyectofinal.py` en [Google Colab](https://colab.research.google.com/).
 
-3. **Ejecutar todo el código** usando la opción `Entorno de ejecución > Ejecutar todo` (o `Ctrl+F9`).
+3. **Ejecutar todo el código** usando la opción `Entorno de ejecución > Ejecutar todo` o `Ctrl+F9`.
 
 4. **Conceder permisos** para acceder a Google Drive.
 
@@ -48,11 +48,22 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 ## 📈 Hallazgos del Análisis Exploratorio de Datos (EDA)
 
 - La red presenta una **distribución de grado altamente sesgada**, donde unos pocos usuarios tienen muchos amigos o seguidores, mientras que la mayoría tiene pocos (estructura típica tipo “power-law”).
-- Se detectaron **outliers en las ubicaciones geográficas**, principalmente coordenadas fuera de los rangos válidos, que fueron filtradas.
-- A través del geolocalizador `geopy`, se identificaron los países de los usuarios más conectados, mostrando una **presencia global significativa** con concentración en regiones como América del Norte, Europa y Asia.
-- El número promedio de conexiones (grado promedio) es bajo comparado con la cantidad total de usuarios, indicando una red **poco densa** pero con hubs importantes.
+- No se encontraron **outliers en las ubicaciones geográficas**.
+- No se encontraron **outliers en el número de amigos por usuario**.
+- Utilizando `geopy`:
+  - Se identificaron los países de los usuario con másseguidores, mostrando una **concentración significativa** en `Australia, South Africa, Indonesia y Malaysia`.
+  - Se identificaron los países de los usuario con menos seguidores, mostrando una **concentración significativa** en `Estados Unidos`.
+  - Se identificaron los países de los usuarios con más seguidos, mostrando una **concentración significativa** en `Desconocido y Australia`.
+  - Se identificaron los países de los usuarios con menos seguidos, mostrando una **concentración significativa** en `Desconocido y Estados Unidos`.
+    
+- Estudio del `grafo`:
+  - El número de nodos es: 10000000
+  - El número de aristas es: 169488182
+  - Su densidad es: 1.694881989488199e-06. El número de la densidad es bajo lo que indica que existe **poca conexión** dentro del grafo.
+  - Su promedio de grado es: 16.9488182. El número promedio de conexiones es bajo comparado con la cantidad total de usuarios, indicando una red **poco densa** pero con nodos mas poblados.
+    
 - Las visualizaciones muestran **patrones geoespaciales** con hotspots evidentes en ciudades y regiones densamente pobladas.
-- Los histogramas de latitud y longitud revelan la **distribución desigual** de los usuarios a nivel mundial, alineada con patrones reales de población.
+- Los histogramas de latud y longitud revelan la **distribución desigual** de los usuarios a nivel mundial, alineada con patrones reales de población.
 
 ---
 
