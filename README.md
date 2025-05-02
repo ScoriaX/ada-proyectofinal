@@ -5,7 +5,7 @@ Instrucciones De Uso:
 1. Archivos Necesarios:
   - 10_million_user.txt
   - 10_million_location.txt
-  - ADA-ProyectoFinal.ipynb
+  - Codigo principal (ADA-ProyectoFinal.ipynb o ada_proyectofinal.py)
 2. Bibliotecas Utilizadas:
   - pandas
   - networkx
