@@ -2,9 +2,12 @@
 
 ## Análisis y Visualización de un Gran Grafo de Red Social
 
+- Piero Fabricio Poblete Andía
+- Miguel Andres Flavio Ocharan Coaquira
+
 Este proyecto tiene como objetivo analizar y visualizar la estructura de un gran grafo de red social en busqueda de patrones interesantes y información sobre la conectividad social, las estructuras de la comunidad y las propiedades de la red.
 
-Instrucciones De Uso:
+### Instrucciones De Uso:
 1. Archivos Necesarios:
   - 10_million_user.txt
   - 10_million_location.txt
