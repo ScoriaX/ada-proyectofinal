@@ -13,10 +13,6 @@ Original file is located at
 INSTALAR BIBLIOTECAS
 """
 
-!pip install igraph
-
-!pip install cartopy
-
 """IMPORTAR BIBLIOTECAS"""
 
 import pandas as pd
