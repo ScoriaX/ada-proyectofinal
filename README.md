@@ -1,24 +1,34 @@
-# ADA Proyecto Final – Análisis y Visualización de una Red Social Masiva
+# ADA Proyecto Final
 
-## Análisis y Visualización de un Gran Grafo de Red Social
+## Análisis-Algoritmos y Visualización del Grafo de la Red ‘X’
+
+---
 
 **Autores:**
 - Piero Fabricio Poblete Andía  
 - Miguel Andres Flavio Ocharan Coaquira
 
+---
+
+## 1. Introducción
+
+- **Motivación.** 
+
+- **Objetivos.**
+  
 Este proyecto tiene como objetivo analizar y visualizar la estructura de un **grafo de red social compuesto por 10 millones de usuarios**, con el fin de descubrir **patrones de conectividad**, **distribución geográfica** y otras propiedades clave del grafo.
 
 ---
 
-## Archivos Necesarios
+## 2. Requerimientos
+
+### Archivos Necesarios
 
 - `10_million_user.txt`: Archivo de texto con las relaciones de amistad entre usuarios.
 - `10_million_location.txt`: Archivo con latitudes y longitudes de cada usuario.
 - `ada_proyectofinal.ipynb` o `ada_proyectofinal.py`: Código principal del proyecto.
 
----
-
-## Bibliotecas Utilizadas
+### Bibliotecas Utilizadas
 
 - `pandas`  
 - `networkx`, `igraph`  
@@ -45,7 +55,19 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
-## Hallazgos del Análisis Exploratorio de Datos (EDA)
+## 3. Preprocesamiento de Datos
+
+
+
+---
+
+## Construcción del Grafo
+
+---
+
+## 4. Análisis Exploratorio de Datos (EDA)
+
+### Hallazgos:
 
 - La red presenta una **distribución de grado altamente sesgada**, donde unos pocos usuarios tienen muchos amigos o seguidores, mientras que la mayoría tiene pocos (estructura típica tipo “power-law”).
 - No se encontraron **outliers en las ubicaciones geográficas**.
@@ -67,6 +89,22 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
+## 5. Propiedades y Métricas de la Red
+
+---
+
+## 6. Análisis Avanzado
+
+---
+
+## 7. Visualización
+
+---
+
+## 8. Conclusión
+
+---
+
 ## Notas Técnicas
 
 - El proceso de geolocalización puede ser lento debido a restricciones de `Nominatim`. Se empleó `RateLimiter` para evitar bloqueos.
@@ -83,3 +121,6 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 - Preparado para presentación y evaluación
 
 ---
+
+## 9. Referencias
+
