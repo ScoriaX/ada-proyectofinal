@@ -1,0 +1,7 @@
+pandas
+matplotlib
+igraph
+geopy
+seaborn
+networkx
+streamlit
