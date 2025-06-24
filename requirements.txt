@@ -6,3 +6,4 @@ cartopy
 seaborn
 networkx
 streamlit
+gdown
