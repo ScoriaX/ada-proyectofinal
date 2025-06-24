@@ -16,7 +16,7 @@ INSTALAR BIBLIOTECAS
 """IMPORTAR BIBLIOTECAS"""
 
 import pandas as pd
-import networkx as nx
+#import networkx as nx
 import warnings
 import seaborn as sns
 import matplotlib.pyplot as plt
