@@ -1,6 +1,6 @@
-# 📊 ADA Proyecto Final – Análisis y Visualización de una Red Social Masiva
+# ADA Proyecto Final – Análisis y Visualización de una Red Social Masiva
 
-## 👥 Análisis y Visualización de un Gran Grafo de Red Social
+## Análisis y Visualización de un Gran Grafo de Red Social
 
 **Autores:**
 - Piero Fabricio Poblete Andía  
@@ -10,7 +10,7 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
-## 📦 Archivos Necesarios
+## Archivos Necesarios
 
 - `10_million_user.txt`: Archivo de texto con las relaciones de amistad entre usuarios.
 - `10_million_location.txt`: Archivo con latitudes y longitudes de cada usuario.
@@ -18,20 +18,20 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
-## 🧰 Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
 - `pandas`  
 - `networkx`, `igraph`  
 - `matplotlib`, `seaborn`  
-- `cartopy` (`ccrs`, `feature`)  
-- `geopy` (`Nominatim`, `RateLimiter`)  
-- `google.colab` (para montar Drive)  
+- `cartopy`
+- `geopy`
+- `google.colab`
 - `collections.Counter`  
 - `warnings`
 
 ---
 
-## ⚙️ Instrucciones de Uso
+##  Instrucciones de Uso
 
 1. **Subir los archivos** a tu Google Drive en la ruta: `/content/drive/MyDrive/ada_proyectofinal_data/`.
 
@@ -45,13 +45,13 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
-## 📈 Hallazgos del Análisis Exploratorio de Datos (EDA)
+## Hallazgos del Análisis Exploratorio de Datos (EDA)
 
 - La red presenta una **distribución de grado altamente sesgada**, donde unos pocos usuarios tienen muchos amigos o seguidores, mientras que la mayoría tiene pocos (estructura típica tipo “power-law”).
 - No se encontraron **outliers en las ubicaciones geográficas**.
 - No se encontraron **outliers en el número de amigos por usuario**.
 - Utilizando `geopy`:
-  - Se identificaron los países de los usuario con másseguidores, mostrando una **concentración significativa** en `Australia, South Africa, Indonesia y Malaysia`.
+  - Se identificaron los países de los usuario con más seguidores, mostrando una **concentración significativa** en `Australia, South Africa, Indonesia y Malaysia`.
   - Se identificaron los países de los usuario con menos seguidores, mostrando una **concentración significativa** en `Estados Unidos`.
   - Se identificaron los países de los usuarios con más seguidos, mostrando una **concentración significativa** en `Desconocido y Australia`.
   - Se identificaron los países de los usuarios con menos seguidos, mostrando una **concentración significativa** en `Desconocido y Estados Unidos`.
@@ -67,19 +67,19 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 
 ---
 
-## 📌 Notas Técnicas
+## Notas Técnicas
 
 - El proceso de geolocalización puede ser lento debido a restricciones de `Nominatim`. Se empleó `RateLimiter` para evitar bloqueos.
 - El código se puede optimizar usando procesamiento por lotes (`chunksize`) o ejecución paralela para mejorar la eficiencia.
 
 ---
 
-## ✅ Estado del Proyecto
+## Estado del Proyecto
 
-✔️ Carga masiva eficiente  
-✔️ Análisis exploratorio detallado  
-✔️ Visualizaciones estadísticas y geográficas  
-✔️ Estudio de propiedades del grafo  
-✔️ Preparado para presentación y evaluación
+- Carga masiva eficiente  
+- Análisis exploratorio detallado  
+- Visualizaciones estadísticas y geográficas  
+- Estudio de propiedades del grafo  
+- Preparado para presentación y evaluación
 
 ---
