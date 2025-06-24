@@ -39,9 +39,7 @@ Este proyecto tiene como objetivo analizar y visualizar la estructura de un **gr
 - `collections.Counter`  
 - `warnings`
 
----
-
-##  Instrucciones de Uso
+###  Instrucciones de Uso
 
 1. **Subir los archivos** a tu Google Drive en la ruta: `/content/drive/MyDrive/ada_proyectofinal_data/`.
 
