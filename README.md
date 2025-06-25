@@ -2,7 +2,7 @@
 
 
 ## Análisis-Algoritmos y Visualización del Grafo de la Red ‘X’
-
+[Enlace Documento Principal](ada_proyectofinal/ada_proyectofinal.ipynb)
 
 ---
 
